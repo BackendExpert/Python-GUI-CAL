@@ -1,6 +1,8 @@
 import tkinter as tk
 import customtkinter
 
+# uncomment the lines to change appearance_mode and default_color_theme
+
 # customtkinter.set_appearance_mode("light")
 customtkinter.set_appearance_mode("dark")
 # customtkinter.set_default_color_theme("green")
