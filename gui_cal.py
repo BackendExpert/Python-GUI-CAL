@@ -18,7 +18,7 @@ main_frame.pack(expand= True, padx= 10, pady=20)
 
 answer_text = ""
 
-answer_label = customtkinter.CTkLabel(master=main_frame, textvariabke=answer_text, font=('consolas', 20), width=24, height=2)
+answer_label = customtkinter.CTkLabel(master=main_frame, font=('consolas', 20), width=24, height=2)
 answer_label.pack()
 
 # testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
