@@ -21,7 +21,7 @@ answer_text = ""
 cal_font = ('Arial', 20, 'bold')
 
 answer_feild = customtkinter.CTkEntry(master=main_frame, show=answer_text)
-answer_feild.grid(row=0, column=0, pady=(0, 20))
+answer_feild.grid_columnconfigure(0, weight=1)
 
 # testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
 # testButton.place(relx=0.5, rely=0.5, anchor="center")
