@@ -9,6 +9,7 @@ customtkinter.set_appearance_mode("dark")
 
 app = customtkinter.CTk()
 app.geometry("500x600")
+app.title("GUI ")
 
 testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
 testButton.place(relx=0.5, rely=0.5, anchor="center")
