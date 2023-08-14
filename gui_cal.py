@@ -1,8 +1,10 @@
 import tkinter as tk
 import customtkinter
 
-app = customtkinter.CTk()
+customtkinter.set_appearance_mode("dark")
+customtkinter.set_default_color_theme("red")
 
+app = customtkinter.CTk()
 app.geometry("500x600")
 
 testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
