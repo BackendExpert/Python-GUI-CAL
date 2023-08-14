@@ -16,7 +16,7 @@ app.title("GUI Scientific Calculator")
 main_frame = customtkinter.CTkFrame(master=app, width=450, height=550)
 main_frame.pack(expand= True, padx= 10, pady=20)
 
-answer_text = ""
+cal_font = ('Arial', 20, 'bold')
 
 answer_label = customtkinter.CTkLabel(master=main_frame, font=('consolas', 20), width=24, height=2)
 answer_label.pack()
