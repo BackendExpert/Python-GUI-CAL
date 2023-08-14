@@ -19,6 +19,7 @@ main_frame.pack(expand= True, padx= 10, pady=20)
 cal_font = ('Arial', 20, 'bold')
 
 answer_feild = customtkinter.CTkEntry(main_frame, text="", text_font=cal_font, width=250, fg_color="#000000", border_color="#000000")
+answer_feild.place(x=0,y=10)
 
 # testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
 # testButton.place(relx=0.5, rely=0.5, anchor="center")
