@@ -14,7 +14,7 @@ app.geometry("500x600")
 app.title("GUI Scientific Calculator")
 
 main_frame = customtkinter.CTkFrame(master=app, width=450, height=550)
-main_frame.pack()
+main_frame.pack(expand= True, padx= 10, pady=20)
 
 # testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
 # testButton.place(relx=0.5, rely=0.5, anchor="center")
