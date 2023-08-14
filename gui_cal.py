@@ -1,2 +1,5 @@
-from tkinter import *
+import tkinter as tk
 
+app = tk.Tk()
+
+app.mainloop()
