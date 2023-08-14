@@ -1,8 +1,8 @@
 import tkinter as tk
+import customtkinter
 
-app = tk.Tk()
+app = customtkinter.CTk()
 
-testButton = tk.Button(app, text="Hello World", command=app.destroy)
-testButton.pack()
+
 
 app.mainloop()
