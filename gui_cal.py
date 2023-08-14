@@ -19,10 +19,12 @@ answer_text = ""
 cal_font = ('Arial', 20, 'bold')
 
 answer_feild = customtkinter.CTkEntry(master=app, show=answer_text, width=500, height=50, font=cal_font)
-answer_feild.place(x=0, y=10)
+answer_feild.grid(sticky=)
 
-button1 = customtkinter.CTkButton(master=app,command=lambda:show("1"), text="1", text_color="#ffffff",width=50, height=2, fg_color="#b5520b",hover_color="#2e2a27")
-button1.place(x=10,y=100)
+button_clear = customtkinter.CTkButton(master=app, text="C", text_color="#ffffff",width=60, height=60, font=cal_font, fg_color="#b5520b",hover_color="#2e2a27")
+button_clear.place(x=10,y=100)
+
+button_
 
 
 # testButton = customtkinter.CTkButton(master=app, text="JehanKandy")
