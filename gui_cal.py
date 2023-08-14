@@ -2,7 +2,7 @@ import tkinter as tk
 import customtkinter
 
 customtkinter.set_appearance_mode("dark")
-customtkinter.set_default_color_theme("red")
+# customtkinter.set_default_color_theme("green")
 
 app = customtkinter.CTk()
 app.geometry("500x600")
