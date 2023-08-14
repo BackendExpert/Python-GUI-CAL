@@ -7,6 +7,8 @@ import customtkinter
 customtkinter.set_appearance_mode("dark")
 # customtkinter.set_default_color_theme("green")
 
+# -----------------------------------------------------------------------
+
 app = customtkinter.CTk()
 app.geometry("500x600")
 app.title("GUI Scientific Calculator")
